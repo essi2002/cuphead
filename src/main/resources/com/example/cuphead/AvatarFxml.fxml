@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="anchore" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cuphead.View.Avatar">
+   <children>
+      <ImageView fitHeight="130.0" fitWidth="141.0" layoutX="20.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image></ImageView>
+      <Button layoutX="250.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#RandomAvatar" text="Random Avatar" />
+      <Circle fx:id="myCircleView" fill="#1ff7ff" layoutX="300.0" layoutY="106.0" radius="93.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="60.0" layoutY="281.0" mnemonicParsing="false" text="Avatar1" onMouseClicked="#Avatar1" />
+      <Button layoutX="180.0" layoutY="282.0" mnemonicParsing="false" text="Avatar2" onMouseClicked="#Avatar2" />
+      <Button layoutX="324.0" layoutY="281.0" mnemonicParsing="false" text="Avatar3" onMouseClicked="#Avatar3" />
+      <Button layoutX="455.0" layoutY="282.0" mnemonicParsing="false" text="Avatar4"  onMouseClicked="#Avatar4"/>
+      <Button layoutX="273" layoutY="339" text="choose image" onMouseClicked="#FileChooser"/>
+      <Button layoutX="273" layoutY="400" text="choose image" onMouseClicked="#back"/>
+   </children>
+</AnchorPane>

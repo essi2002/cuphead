@@ -1,0 +1,28 @@
+#title{
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+}
+.registerButton{
+    -fx-background-color: green;
+    -fx-text-fill: cyan;
+    -fx-border-color: cyan;
+}
+.loginButton{
+    -fx-background-color: #bfff00;
+    -fx-text-fill: green;
+    -fx-border-color: cyan;
+}
+.skipButton{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+label{
+    -fx-text-fill: #8b8f62;
+}
+
+Button{
+    -fx-pref-width: 300;
+
+}

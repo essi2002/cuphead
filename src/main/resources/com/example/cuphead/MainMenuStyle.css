@@ -1,0 +1,12 @@
+#title{
+    -fx-font-size:40;
+    -fx-font-weight: bold;
+    -fx-fill: yellow;
+}
+.ButtonClass{
+    -fx-pref-width: 330;
+    -fx-pref-height: 35;
+    -fx-border-color: yellow;
+    -fx-text-fill: yellow;
+    -fx-background-color: black;
+}

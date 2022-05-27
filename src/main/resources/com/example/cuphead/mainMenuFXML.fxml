@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:controller="com.example.cuphead.View.mainMenu" stylesheets="@MainMenuStyle.css" prefHeight="585.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="3000.0" fitWidth="1250.0" layoutX="-38.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cupheadMainmenu.jpg" />
+         </image>
+      </ImageView>
+      <VBox spacing="15" layoutX="148.0" layoutY="126.0" prefHeight="458.0" prefWidth="291.0">
+         <Text id="title" text="MainMenu"/>
+         <Button fx:id="newGameButton" text="new game" styleClass="ButtonClass" onMouseClicked="#newGame"/>
+         <Button fx:id="continueButton" text="continue" styleClass="ButtonClass" onMouseClicked="#continueGame"/>
+         <Button fx:id="profileButton"  text="profile" styleClass="ButtonClass" onMouseClicked="#profileButton"/>
+         <Button fx:id="scoreboardButton" text="scoreboard"  styleClass="ButtonClass" onMouseClicked="#scoreBoardButton"/>
+         <Button fx:id="exitButton" text="exit"  styleClass="ButtonClass" onMouseClicked="#exitButton" />
+      </VBox>
+
+   </children>
+</AnchorPane>

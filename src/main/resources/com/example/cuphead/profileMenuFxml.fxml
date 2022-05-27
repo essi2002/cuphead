@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.TextField?>
+
+<AnchorPane layoutX="270" prefHeight="523.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cuphead.View.Profile" stylesheets="@ProfileMenuStyle.css">
+   <children>
+      <Button fx:id="changeButton" layoutX="268.0" layoutY="80.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="change Account" styleClass="changeAccount" onMouseClicked="#changAccount" />
+      <Button layoutX="268.0" layoutY="172.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="delete Account" styleClass="deleteAccount" onMouseClicked="#deleteAccount" />
+      <Button layoutX="268.0" layoutY="273.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="Exit Account" styleClass="exitAccount" onMouseClicked="#ExitAccount" />
+      <Button layoutX="263.0" layoutY="402.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="Avatar" styleClass="avatar" onMouseClicked="#Avatar" />
+      <Button layoutX="263.0" layoutY="450.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="back" styleClass="avatar" onMouseClicked="#back" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profileTransparent.png" />
+         </image>
+      </ImageView>
+
+      <TextField onKeyTyped="#usernameTyped" fx:id="newUsername" promptText="enter new username" layoutX="39.0" layoutY="224.0" />
+      <TextField onKeyTyped="#passwordTyped" fx:id="newPassword" promptText="enter new Password" layoutX="39.0" layoutY="347.0" />
+   </children>
+</AnchorPane>

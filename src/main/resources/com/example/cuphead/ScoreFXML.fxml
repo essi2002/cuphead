@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="611.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cuphead.View.scoreBoard">
+   <children>
+      <Button onMouseClicked="#normalScore" layoutX="279.0" layoutY="21.0" mnemonicParsing="false" text="NORMAL" />
+      <Button onMouseClicked="#devilModeScore" layoutX="121.0" layoutY="22.0" mnemonicParsing="false" text="DEVIL MODE" />
+       <Button onMouseClicked="#back" layoutX="50.0" layoutY="21.0" mnemonicParsing="false" text="NORMAL" />
+      <Circle fill="#fcff1f" layoutX="160.0" layoutY="180.0" radius="86.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" fx:id="firstPlace" layoutX="88.0" layoutY="161.0" prefHeight="38.0" prefWidth="148.0" text="Label" />
+      <Circle fill="#21ffdd" layoutX="162.0" layoutY="352.0" radius="86.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" fx:id="secondPlace" layoutX="88.0" layoutY="333.0" prefHeight="38.0" prefWidth="148.0" text="Label" />
+      <Circle fill="#21ff40" layoutX="162.0" layoutY="524.0" radius="86.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" fx:id="thirdPlace" layoutX="88.0" layoutY="505.0" prefHeight="38.0" prefWidth="148.0" text="Label" />
+      <VBox layoutX="297.0" layoutY="67.0" prefHeight="497.0" prefWidth="288.0">
+          <Label alignment="CENTER" fx:id="fourthPlace"/>
+          <Label alignment="CENTER" fx:id="fifthPlace"/>
+          <Label alignment="CENTER" fx:id="sixthPlace"/>
+          <Label alignment="CENTER" fx:id="seventhPlace"/>
+          <Label alignment="CENTER"  fx:id="eightPlace"/>
+          <Label alignment="CENTER" fx:id="ninthPlace"/>
+          <Label alignment="CENTER"  fx:id="tenthPlace"/>
+      </VBox>
+
+   </children>
+</AnchorPane>

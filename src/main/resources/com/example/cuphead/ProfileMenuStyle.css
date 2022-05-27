@@ -1,0 +1,21 @@
+.changeAccount{
+    -fx-background-color: #bfff00;
+    -fx-text-fill: green;
+    -fx-border-color: cyan;
+}
+.deleteAccount{
+    -fx-background-color: green;
+    -fx-text-fill: cyan;
+    -fx-border-color: cyan;
+}
+.exitAccount{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+.avatar{
+    -fx-background-color: blue;
+    -fx-text-fill: cyan;
+    -fx-border-color: cyan;
+
+}
